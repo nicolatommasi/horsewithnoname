@@ -1,7 +1,7 @@
 /*
 * Gruppenarbeit 01: Warenkorb
 * Klasse 1o
-* Müller, Siro; Tommasi Nicola
+* Mï¿½ller, Siro; Tommasi Nicola
 *
 */
 package gruppenArbeit01;
@@ -9,6 +9,8 @@ package gruppenArbeit01;
 import java.util.ArrayList;
 
 public class Collection {
+	
+	
 	
 	// product list
 	 protected ArrayList<Product> collection = new ArrayList<Product>();

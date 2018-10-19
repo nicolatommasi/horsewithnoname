@@ -1,7 +1,7 @@
 /*
 * Gruppenarbeit 01: Warenkorb
 * Klasse 1o
-* Müller, Siro; Tommasi Nicola
+* Mï¿½ller, Siro; Tommasi Nicola
 *
 */
 package gruppenArbeit01;
@@ -31,6 +31,7 @@ public class Product {
 		//calculate mwst
 		this.mwst = this.price * this.mwstRate / 100f;
 	}
+
 
 
 	public void setQuantity(int quantity) {

@@ -1,16 +1,17 @@
 /*
 * Gruppenarbeit 01: Warenkorb
 * Klasse 1o
-* Müller, Siro; Tommasi Nicola
+* Mï¿½ller, Siro; Tommasi Nicola
 *
 */
 
 
-//TODO: MWST Berechnung überprüfen (stimmt nicht)
+//TODO: MWST Berechnung ï¿½berprï¿½fen (stimmt nicht)
 //TODO: Kommentare
 //TODO: Stringausgabe mit Tabulatoren
 
 package gruppenArbeit01;
+
 
 import java.util.Scanner;
 
@@ -22,7 +23,7 @@ public class Main {
 		Assortment assortment = new Assortment("CHF");
 
 		// create products for assortment
-		Product pr1 = new Product(1, "Käsekuchen", 11.10f, 1.0f);
+		Product pr1 = new Product(1, "Kï¿½sekuchen", 11.10f, 1.0f);
 		Product pr2 = new Product(2, "Nusstorte", 12.90f, 2.0f);
 		Product pr3 = new Product(3, "Whiskey Old", 45.90f, 10.0f);
 
@@ -44,7 +45,7 @@ public class Main {
 			assortment.showProducts();
 
 			// id (which product)
-			System.out.println("\n" + "Welcher Artikel soll dem Warenkorb hinzugefügt werden (1,2,3 oder q für Ende)");
+			System.out.println("\n" + "Welcher Artikel soll dem Warenkorb hinzugefï¿½gt werden (1,2,3 oder q fï¿½r Ende)");
 			String id = scanner.next();
 			if (id.equals("q"))
 				break;
@@ -57,7 +58,7 @@ public class Main {
 
 			// quantity (how much)
 			System.out.println("Wie viele Artikel " + assortmentItem.getItemName()
-					+ " sollen hinzugefügt werden: (Zahl oder a für Abbrechen)");
+					+ " sollen hinzugefï¿½gt werden: (Zahl oder a fï¿½r Abbrechen)");
 			String quantity = scanner.next();
 			if (quantity.equals("a"))
 				break;

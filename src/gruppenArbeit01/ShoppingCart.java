@@ -1,7 +1,7 @@
 /*
 * Gruppenarbeit 01: Warenkorb
 * Klasse 1o
-* Müller, Siro; Tommasi Nicola
+* Mï¿½ller, Siro; Tommasi Nicola
 *
 */
 
@@ -11,6 +11,8 @@ public class ShoppingCart extends Collection {
 
 	public ShoppingCart(String currency) {
 		super(currency);
+
+
 
 	}
 
@@ -43,7 +45,7 @@ public class ShoppingCart extends Collection {
 				gesMwstRate += item.getMwstrate();
 			}
 			//summ overall
-			System.out.println("\n" + "Der Gesamtpreis von " + Product.formatfloats(gesPrice) + " CHF" + " enthält " + Product.formatfloats(gesMwst) + " "
+			System.out.println("\n" + "Der Gesamtpreis von " + Product.formatfloats(gesPrice) + " CHF" + " enthï¿½lt " + Product.formatfloats(gesMwst) + " "
 					+ super.currency + " MwSt (" + gesMwstRate + " %)");
 		} else {
 
